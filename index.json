@@ -1,0 +1,25 @@
+{
+  "format": 1,
+  "title": { "en": "sylen's dsh plugins", "zh": "sylen 的 dsh 插件" },
+  "plugins": [
+    {
+      "name": "@sylen/dsh-project-icons",
+      "title": { "en": "Project icons & right-aligned status", "zh": "项目图标与状态靠右" },
+      "description": {
+        "en": "Show each sidebar session row's project icon (scanned from logo/favicon/manifest like PandaGO) and keep the row's status marker on the trailing edge.",
+        "zh": "在侧边栏会话行前显示项目图标（按 PandaGO 方式扫描 logo/favicon/manifest），并把状态标记移到行尾。"
+      },
+      "icon": "icons/dsh-project-icons.svg",
+      "author": "sylen",
+      "homepage": "https://www.npmjs.com/package/@sylen/dsh-project-icons",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1794208710,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.2-rc.1" }
+        }
+      ]
+    }
+  ]
+}
